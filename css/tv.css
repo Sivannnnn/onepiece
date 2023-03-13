@@ -1,0 +1,35 @@
+.main .main_title {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background: url(../images/header-bg.jpg);
+}
+.main .container .list .list_item {
+  margin: 10px;
+}
+.main .container .list .list_item .item_title {
+  font-size: 2rem;
+  padding: 20px 0;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+}
+.main .container .list .list_item .item_title span {
+  display: block;
+  text-align: center;
+}
+.main .container .list .list_item .item_imgs img {
+  width: 24%;
+}
+.main .container .list .list_item .row .contents_items {
+  height: 280px;
+  margin-top: 10px;
+}
+.main .container .list .list_item .row .contents_items img {
+  height: 50%;
+  width: 100%;
+}
+.main .container .list .list_item .row .contents_items .date {
+  color: #ccc;
+  font-size: 12px;
+  margin: 20px;
+}

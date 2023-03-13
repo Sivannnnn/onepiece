@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>看动画片</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tv.css">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <!--[if lt IE 9]>
+        <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header_logo_small" title="ONE PIECE">
+            <a href="/">
+                <img src="images/logo.png" alt=""/>
+            </a>
+        </h1>
+        <div class="visible-xs search"><a class="glyphicon glyphicon-search" href=""></a></div>
+        <div class="visible-xs btn-group menu">
+            <a class="glyphicon glyphicon-list menu-a btn-default dropdown-toggle" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu menu-list">
+                <li><a href="index.html">最新情报</a></li>
+                <li><a href="about.html">草帽海贼团</a></li>
+                <li><a href="info.html">动画信息</a></li>
+                <li><a href="tv.html">看动漫片</a></li>
+                <li><a href="market.html">活动商店</a></li>
+                <li><a href="thanks.html">特别致谢</a></li>
+            </ul>
+        </div>
+        <div class="header_wrap">
+            <div class="header_bg"></div>
+            <div class="header_logo">
+                <img src="images/logo.png" alt="One Piece" />
+            </div>
+            <div class="hidden-xs header_sns">
+                <div class="header_sns_title">OFFICIAL SNS</div>
+                <div class="headers_sns_icn">
+                    <a href="#"><img src="iconfonts/nav-twitter.png" alt=""></a>
+                    <a href="#"><img src="iconfonts/nav-insta.png" alt=""></a>
+                    <a href="#"><img src="iconfonts/nav-line.png" alt=""></a>
+                    <a href="#"><img src="iconfonts/nav-yt.png" alt=""></a>
+                    <a href="#"><img src="iconfonts/nav-tiktok.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="container hidden-lg">
+            <div class="row">
+                <nav class="col-md-9 col-lg-9 hidden-xs header_nav">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 header_nav_item"><a href="index.html"><img
+                                    src="images/navs/nav-news.png" alt="" class="header_nav_icon"><span
+                                    class="header_nav_label">最新情报</span></a></div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 header_nav_item"><a href="about.html"><img
+                                    src="images/navs/nav-about.png" alt="" class="header_nav_icon"><span
+                                    class="header_nav_label">草帽海贼团</span></a></div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 header_nav_item"><a href="info.html"><img
+                                    src="images/navs/nav-comicanime.png" alt="" class="header_nav_icon"><span
+                                    class="header_nav_label">动画信息</span></a></div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 header_nav_item"><a href="tv.html"><img
+                                    src="images/navs/nav-streaming.png" alt="" class="header_nav_icon"><span
+                                    class="header_nav_label">看动漫片</span></a></div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 header_nav_item"><a href="market.html"><img
+                                    src="images/navs/nav-event.png" alt="" class="header_nav_icon"><span
+                                    class="header_nav_label">活动商店</span></a></div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 header_nav_item"><a href="thanks.html"><img
+                                    src="images/navs/nav-special.png" alt="" class="header_nav_icon"><span
+                                    class="header_nav_label">特别致谢</span></a></div>
+                    </div>
+                </nav>
+                <a href="#" class="col-md-2 col-lg-2 col-lg-offset-1 hidden-xs hidden-sm header_btn_search">
+                    <img src="iconfonts/btn-search.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main container">
+        <ul class="nav nav-tabs visible-lg">
+            <li><a href="index.html">最新情报</a></li>
+            <li><a href="about.html">草帽海贼团</a></li>
+            <li><a href="info.html">动画信息</a></li>
+            <li class="active"><a href="#">看动漫片</a></li>
+            <li>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    活动商店<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="market.html#hot">热卖</a></li>
+                    <li><a href="market.html#goods">商品栏</a></li>
+                  </ul>
+            </li>
+            <li><a href="thanks.html">特别致谢</a></li>
+        </ul>
+        <div class="main_title">
+            发布
+        </div>
+        <div class="container">
+            <div class="list">
+                <div class="list_item">
+                    <div class="item_title animate__animated animate__fadeInLeftBig">
+                        错过的消息在这里！
+                    </div>
+                    <div class="item_imgs">
+                        <img src="images/tv/1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="list_item">
+                    <div class="item_title animate__animated animate__fadeInLeftBig">
+                        第1集~最新话随便发布也在实施中！ (最新消息将在播出后的周四更新)
+                    </div>
+                    <div class="item_imgs">
+                        <img src="images/tv/1.jpg" alt="">
+                        <img src="images/tv/2.jpg" alt="">
+                        <img src="images/tv/3.jpg" alt="">
+                        <img src="images/tv/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="list_item">
+                    <div class="item_title animate__animated animate__fadeInLeftBig">
+                        <span>最新消息</span>
+                        <span>发布</span>
+                    </div>
+                    <div class="contents">
+                        <div class="row">
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new1.jpg" alt="">
+                                <div class="date">2022/12/02</div>
+                            </div>
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new2.jpg" alt="">
+                                <div class="date">2022/11/27</div>
+                            </div>
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new3.jpg" alt="">
+                                <div class="date">2022/11/20</div>
+                            </div>
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new4.jpg" alt="">
+                                <div class="date">2022/11/16</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list_item">
+                    <div class="contents">
+                        <div class="row">
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new5.jpg" alt="">
+                                <div class="date">2022/11/15</div>
+                            </div>
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new6.jpg" alt="">
+                                <div class="date">2022/11/13</div>
+                            </div>
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new7.jpg" alt="">
+                                <div class="date">2022/11/06</div>
+                            </div>
+                            <div class="contents_items col-sm-6 col-md-3">
+                                <img src="images/tv/new8.jpg" alt="">
+                                <div class="date">2022/10/30</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-xs-7 col-md-8 footer_nav">
+                <a class="footer_nav_items">站点地图</a>
+                <a class="footer_nav_items">常见问题</a>
+                <a class="footer_nav_items">用户协议</a>
+                <a class="footer_nav_items">隐私政策</a>
+                <a class="footer_nav_items">公司概要</a>
+            </div>
+            <div class="col-xs-5 col-md-4 footer_copyright">
+                <a href="">(c)尾田荣一郎/集英社富士电视台东映动画</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

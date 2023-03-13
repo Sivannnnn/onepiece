@@ -1,0 +1,38 @@
+.main {
+  overflow: hidden;
+  height: 800px;
+  padding: 15px;
+}
+.main .body {
+  position: relative;
+  padding: 10px;
+  animation: 20s wordLoop infinite normal;
+}
+.main .body .title {
+  text-align: center;
+  color: #d53633;
+}
+.main .body .txt1 {
+  font-size: 24px;
+  display: block;
+}
+.main .body .img {
+  position: relative;
+  left: 25%;
+  margin: 10px;
+  width: 50%;
+}
+.main .body .txt2 {
+  font-size: 24px;
+  display: block;
+}
+@keyframes wordLoop {
+  0% {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-150%);
+    -webkit-transform: translateY(-150%);
+  }
+}

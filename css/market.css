@@ -1,0 +1,24 @@
+.main h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.main .list .list_item {
+  margin: 10px 0;
+}
+.main .list .list_item .item_img {
+  width: 100%;
+  height: 150px;
+}
+.main .list .list_item .item_title {
+  margin: 5px 0;
+  display: block;
+}
+.main .list .list_item .date {
+  display: block;
+  margin: 10px 0;
+}
+.main .list .list_item .cate {
+  border-top: 1px solid #d73332;
+  color: #d73332;
+  padding: 5px 0;
+}

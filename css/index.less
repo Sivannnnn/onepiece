@@ -1,0 +1,163 @@
+// main部分
+.main {
+    position: relative;
+    top: 300px;
+
+    .swiper {
+        width: 100%;
+        padding: 50px 0;
+        user-select: none;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .top_banners {
+        position: relative;
+        background: #be2a29;
+        padding: 15px 0;
+
+        .row {
+            padding: 10px;
+            margin: 0;
+        }
+
+        .tit {
+            color: #d73332;
+            font-weight: 700;
+            font-size: 25px;
+        }
+
+        .top_youtube,
+        .top_birthday {
+            padding: 20px;
+            position: relative;
+            margin: 10px 0;
+        }
+
+        .top_birthday_icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 38px;
+            height: 38px;
+            background: url(../iconfonts/arrow01.png);
+            background-size: 100%;
+        }
+
+        .top_youtube {
+            background: #000;
+            position: relative;
+
+            .top_youtube_title {
+                display: flex;
+                flex-direction: column;
+
+                .top_youtube_txt {
+                    color: #fff;
+                }
+            }
+        }
+
+        .top_birthday {
+            background: url(../images/birthday-bg.png);
+            text-align: right;
+
+            .top_birthday_top {
+                margin-right: 25px;
+
+                .top_birthday_date {}
+
+                .top_birthday_month {
+                    font-size: 16px;
+                }
+            }
+
+            .top_birthday_center {
+                text-align: center;
+
+                .top_birthday_name {
+                    font-size: 32px;
+                }
+            }
+
+            .top_birthday_bottom {
+                .top_birthday_txt {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .top_news {
+        background: url(../images/banner-bg.jpg);
+
+        .top_news_title {
+            display: flex;
+            align-items: center;
+            padding: 20px 40px;
+
+            img {
+                height: 100px;
+                width: 100px;
+                background: #fff;
+                border-radius: 15px;
+                margin-right: 20px;
+            }
+
+            .top_news_text {
+                color: #fff;
+
+                h2 {
+                    font-size: 54px;
+                }
+
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .top_news_list {
+            background: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            .news_item {
+                width: 25%;
+                padding: 10px;
+                .news_item_img {
+                    width: 100%;
+                }
+
+                .news_item_title {
+                    display: block;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+
+                .news_item_date {
+                    display: block;
+                    color: #a0a0a0;
+                    font-size: 12px;
+                }
+
+                .news_item_cate {
+                    display: inline-block;
+                    border-top: 1px solid #d73332;
+                    color: #d73332;
+                }
+            }
+
+        }
+    }
+}
